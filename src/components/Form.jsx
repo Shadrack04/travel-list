@@ -38,7 +38,7 @@ export default function Form({ onAddItem }) {
           ))}
         </select>
         <input
-          className=" bg-[#ffebb3] w-[200px] sm:w-[350px] mx-5 text-[#5a3e2b] border-none py-[0.5rem] px-[3.2rem] cursor-pointer"
+          className=" bg-[#ffebb3] w-[170px] sm:w-[350px] mx-5 text-[#5a3e2b] border-none py-[0.5rem] px-[3.2rem] cursor-pointer"
           type="text"
           placeholder="Item..."
           value={description}
