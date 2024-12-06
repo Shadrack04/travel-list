@@ -47,6 +47,10 @@ body {
   padding: 2.4rem 0;
 } */
 
+.logo {
+  font-family: "Monoton";
+}
+
 .add-form {
   background-color: #e5771f;
   padding: 2.8rem 0;
