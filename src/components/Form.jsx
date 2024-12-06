@@ -21,7 +21,9 @@ export default function Form({ onAddItem }) {
   return (
     <div className=" row-span-2 bg-[#e5771f] flex flex-col items-center py-4 gap-2 sm:flex-row sm:justify-center">
       <div>
-        <p className=" text-[2.5rem]">What do you need for your 😍 trip?</p>
+        <p className=" text-[1.8rem] sm:text-[2.5rem]">
+          What do you need for your 😍 trip?
+        </p>
       </div>
       <form action="#" onSubmit={(e) => handleSubmit(e)}>
         <select
